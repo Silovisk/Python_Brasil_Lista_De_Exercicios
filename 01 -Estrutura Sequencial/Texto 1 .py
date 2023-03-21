@@ -7,5 +7,5 @@ response = requests.get(url)
 content = response.text
 
 # escrever o conteúdo no arquivo README.md
-with open("Texto 1.md", "w") as f:
+with open("README.md", "w") as f:
     f.write(content)
