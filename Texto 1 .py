@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://wiki.python.org.br/EstruturaSequencial"
+url = "https://wiki.python.org.br/EstruturaDeDecisao"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 
