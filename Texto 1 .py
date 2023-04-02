@@ -1,6 +1,6 @@
 import requests
 
-url = "https://wiki.python.org.br/ExerciciosListas"
+url = "https://wiki.python.org.br/EstruturaDeDecisao"
 
 # fazer uma solicitação HTTP ao URL do link e obter seu conteúdo
 response = requests.get(url)

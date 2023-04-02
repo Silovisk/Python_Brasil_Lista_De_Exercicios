@@ -1,10 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+<meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <meta name="robots" content="index,nofollow">
-
-
 
 <h1 id="pagelocation"><span><a class="backlink" href="/EstruturaSequencial?action=fullsearch&amp;context=180&amp;value=linkto%3A%22EstruturaSequencial%22" rel="nofollow" title="Clique para fazer uma busca completa por este título">EstruturaSequencial</a></span></h1>
 <!-- INICIO --><div dir="ltr" id="content" lang="pt-br"><span class="anchor" id="top"></span>
