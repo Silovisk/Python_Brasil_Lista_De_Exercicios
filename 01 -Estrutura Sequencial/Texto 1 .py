@@ -1,6 +1,6 @@
 import requests
 
-url = "https://wiki.python.org.br/EstruturaSequencial"
+url = "https://wiki.python.org.br/ExerciciosListas"
 
 # fazer uma solicitação HTTP ao URL do link e obter seu conteúdo
 response = requests.get(url)
