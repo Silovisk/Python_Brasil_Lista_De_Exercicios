@@ -292,19 +292,6 @@
          </span>
         </li>
        </ol>
-       <p class="line867">
-        <hr/>
-        <p class="line874">
-         <span class="anchor" id="line-67">
-         </span>
-         Voltar para a
-         <a href="/ListaDeExercicios">
-          ListaDeExercicios
-         </a>
-         <span class="anchor" id="line-68">
-         </span>
-         <span class="anchor" id="bottom">
-         </span>
         </p>
        </p>
       </p>
@@ -315,69 +302,5 @@
    <!-- page -->
   </div>
   <!-- core -->
-  <div id="footer">
-   <div class="partners">
-    <p>
-     <a href="http://moinmo.in/">
-      <img alt="Powered by MoinMoin" src="/pybr/img/logo_moin.png"/>
-     </a>
-     <a href="https://creativecommons.org/licenses/by/2.5/br/" rel="license">
-      <img alt="Creative Commons License" src="https://creativecommons.org/images/public/somerights20.png" style="border-width:0"/>
-     </a>
-    </p>
-   </div>
-   <div class="information">
-    <p>
-     <span style="font-weight: bold;">
-      Sobre esta página
-     </span>
-    </p>
-    <p class="info" dir="ltr" id="pageinfo" lang="pt-br">
-     EstruturaSequencial  (editada pela última vez em 2022-04-02 02:17:55 por
-     <span title="ogordo @ 191-6-134-138.rev.netcom.tv.br[191.6.134.138]">
-      <a class="nonexistent" href="/ogordo" title="ogordo @ 191-6-134-138.rev.netcom.tv.br[191.6.134.138]">
-       ogordo
-      </a>
-     </span>
-     )
-    </p>
-    <p>
-     <a href="?action=raw">
-      Visualizar Texto
-     </a>
-     |
-     <a href="?action=print">
-      Visualizar Impressão
-     </a>
-     |
-     <a href="?action=info">
-      Information
-     </a>
-     |
-     <a href="?action=SubscribeUser">
-      Fazer Usuário Acompanhar
-     </a>
-     |
-     <a href="?action=AttachFile">
-      Anexos
-     </a>
-    </p>
-    <p>
-    </p>
-    <p>
-     "Python" e os logos de Python são marcas registradas da
-     <a href="http://www.python.org/psf">
-      Python Software Foundation
-     </a>
-     , usadas aqui mediante permissão da mesma. O conteúdo deste site está disponível sob os termos da
-     <a href="http://creativecommons.org/licenses/by/2.5/br/">
-      Creative Commons Attribution 2.5
-     </a>
-     exceto quando explicitamente especificado outra licença.
-    </p>
-   </div>
-   <!-- information -->
-  </div>
-  <!-- footer -->
  </body>
 </html>
