@@ -1013,11 +1013,6 @@
            </span>
            <span class="anchor" id="line-299">
            </span>
-           <p class="line862">
-            Voltar para a
-            <a href="/ListaDeExercicios">
-             ListaDeExercicios
-            </a>
             <span class="anchor" id="line-300">
             </span>
             <span class="anchor" id="bottom">
