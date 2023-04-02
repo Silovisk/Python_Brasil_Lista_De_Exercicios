@@ -1,32 +1,531 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<meta name="robots" content="index,nofollow">
-</head>
+ <head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="index,nofollow" name="robots"/>
+  <title>
+   EstruturaSequencial - PythonBrasil
+  </title>
+  <script src="/static/common/js/common.js" type="text/javascript">
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-136790801-2">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<h1 id="pagelocation"><span><a class="backlink" href="/EstruturaDeDecisao?action=fullsearch&amp;context=180&amp;value=linkto%3A%22EstruturaDeDecisao%22" rel="nofollow" title="Clique para fazer uma busca completa por este t�tulo">EstruturaDeDecisao</a></span></h1>
-<!-- INICIO --><div dir="ltr" id="content" lang="pt-br"><span class="anchor" id="top"></span>
-<span class="anchor" id="line-1"></span><p class="line862">Voltar para a <a href="/ListaDeExercicios">ListaDeExercicios</a> <span class="anchor" id="line-2"></span><hr /><p class="line874"> <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><ol type="1"><li>Fa�a um Programa que pe�a dois n�meros e imprima o maior deles. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span></li><li class="gap">Fa�a um Programa que pe�a um valor e mostre na tela se o valor � positivo ou negativo.  <span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span></li><li class="gap">Fa�a um Programa que verifique se uma letra digitada � "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inv�lido. <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span></li><li class="gap">Fa�a um Programa que verifique se uma letra digitada � vogal ou consoante. <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span></li><li class="gap">Fa�a um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a m�dia alcan�ada por aluno e apresentar: <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><ul><li>A mensagem "Aprovado", se a m�dia alcan�ada for maior ou igual a sete; <span class="anchor" id="line-15"></span></li><li>A mensagem "Reprovado", se a m�dia for menor do que sete; <span class="anchor" id="line-16"></span></li><li>A mensagem "Aprovado com Distin��o", se a m�dia for igual a dez. <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span></li></ul></li><li class="gap">Fa�a um Programa que leia tr�s n�meros e mostre o maior deles.  <span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span></li><li class="gap">Fa�a um Programa que leia tr�s n�meros e mostre o maior e o menor deles.  <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span></li><li class="gap">Fa�a um programa que pergunte o pre�o de tr�s  produtos e informe qual produto voc� deve comprar, sabendo que a decis�o � sempre pelo mais barato. <span class="anchor" id="line-23"></span><span class="anchor" id="line-24"></span></li><li class="gap">Fa�a um Programa que leia tr�s n�meros e mostre-os em ordem decrescente. <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span></li><li class="gap">Fa�a um Programa que pergunte em que turno voc� estuda. Pe�a para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inv�lido!", conforme o caso. <span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span></li><li class="gap">As Organiza��es Tabajara resolveram dar um aumento de sal�rio aos seus colaboradores e lhe contraram para desenvolver o programa que calcular� os reajustes. <span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><ul><li style="list-style-type:none">Fa�a um programa que recebe o sal�rio de um colaborador e o reajuste segundo o seguinte crit�rio, baseado no sal�rio atual: <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span></li><li class="gap">sal�rios at� R$ 280,00 (incluindo)          : aumento de 20% <span class="anchor" id="line-33"></span></li><li>sal�rios entre R$ 280,00 e R$ 700,00        : aumento de 15% <span class="anchor" id="line-34"></span></li><li>sal�rios entre R$ 700,00 e R$ 1500,00       : aumento de 10% <span class="anchor" id="line-35"></span></li><li>sal�rios de R$ 1500,00 em diante            : aumento de 5% <span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span>Ap�s o aumento ser realizado, informe na tela: <span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span></li><li class="gap">o sal�rio antes do reajuste; <span class="anchor" id="line-40"></span></li><li>o percentual de aumento aplicado; <span class="anchor" id="line-41"></span></li><li>o valor do aumento; <span class="anchor" id="line-42"></span></li><li>o novo sal�rio, ap�s o aumento. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span></li></ul></li><li class="gap">Fa�a um programa para o c�lculo de uma folha de pagamento, sabendo que os descontos s�o do Imposto de Renda, que depende do sal�rio bruto (conforme tabela abaixo) e 3% para o Sindicato e que o FGTS corresponde a 11% do Sal�rio Bruto, mas n�o � descontado (� a empresa que deposita). O Sal�rio L�quido corresponde ao Sal�rio Bruto menos os descontos. O programa dever� pedir ao usu�rio o valor da sua hora e a quantidade de horas trabalhadas no m�s.  <span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><ul><li style="list-style-type:none">Desconto do IR: <span class="anchor" id="line-47"></span></li><li>Sal�rio Bruto at� 900  (inclusive)   - isento     <span class="anchor" id="line-48"></span></li><li>Sal�rio Bruto at� 1500 (inclusive)  - desconto de 5% <span class="anchor" id="line-49"></span></li><li>Sal�rio Bruto at� 2500 (inclusive)  - desconto de 10% <span class="anchor" id="line-50"></span></li><li>Sal�rio Bruto acima de 2500         - desconto de 20%  <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span>Imprima na tela as informa��es, dispostas conforme o exemplo abaixo. No exemplo o valor da hora � 5 e a quantidade de hora � 220. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><pre><span class="anchor" id="line-1"></span>        Sal�rio Bruto: (5 * 220)        : R$ 1100,00
-<span class="anchor" id="line-2"></span>        (-) IR (5%)                     : R$   55,00  
-<span class="anchor" id="line-3"></span>        (-) INSS ( 10%)                 : R$  110,00
-<span class="anchor" id="line-4"></span>        FGTS (11%)                      : R$  121,00
-<span class="anchor" id="line-5"></span>        Total de descontos              : R$  165,00
-<span class="anchor" id="line-6"></span>        Sal�rio Liquido                 : R$  935,00</pre><span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span></li></ul></li><li class="gap">Fa�a um Programa que leia um n�mero e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inv�lido. <span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span></li><li class="gap">Fa�a um programa que l� as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua m�dia. A atribui��o de conceitos obedece � tabela abaixo: <span class="anchor" id="line-65"></span><span class="anchor" id="line-66"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><pre><span class="anchor" id="line-1-1"></span>  M�dia de Aproveitamento  Conceito
-<span class="anchor" id="line-2-1"></span>  Entre 9.0 e 10.0        A
-<span class="anchor" id="line-3-1"></span>  Entre 7.5 e 9.0         B
-<span class="anchor" id="line-4-1"></span>  Entre 6.0 e 7.5         C
-<span class="anchor" id="line-5-1"></span>  Entre 4.0 e 6.0         D
-<span class="anchor" id="line-6-1"></span>  Entre 4.0 e zero        E</pre><span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span>O algoritmo deve mostrar na tela as notas, a m�dia, o conceito correspondente e a mensagem �APROVADO� se o conceito for A, B ou C ou �REPROVADO� se o conceito for D ou E. <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span></li></ul></li><li class="gap">Fa�a um Programa que pe�a os 3 lados de um tri�ngulo. O programa dever� informar se os valores podem ser um tri�ngulo. Indique, caso os lados formem um tri�ngulo, se o mesmo �: equil�tero, is�sceles ou escaleno.  <span class="anchor" id="line-78"></span><ul><li style="list-style-type:none">Dicas: <span class="anchor" id="line-79"></span></li><li>Tr�s lados formam um tri�ngulo quando a soma de quaisquer dois lados for maior que o terceiro; <span class="anchor" id="line-80"></span></li><li>Tri�ngulo Equil�tero: tr�s lados iguais; <span class="anchor" id="line-81"></span></li><li>Tri�ngulo Is�sceles: quaisquer dois lados iguais; <span class="anchor" id="line-82"></span></li><li>Tri�ngulo Escaleno: tr�s lados diferentes; <span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span></li></ul></li><li class="gap">Fa�a um programa que calcule as ra�zes de uma equa��o do segundo grau, na forma ax2 + bx + c. O programa dever� pedir os valores de a, b e c e fazer as consist�ncias, informando ao usu�rio nas seguintes situa��es: <span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><ol type="a"><li>Se o usu�rio informar o valor de A igual a zero, a equa��o n�o � do segundo grau e o programa n�o deve fazer pedir os demais valores, sendo encerrado; <span class="anchor" id="line-87"></span></li><li>Se o delta calculado for negativo, a equa��o n�o possui raizes reais. Informe ao usu�rio e encerre o programa; <span class="anchor" id="line-88"></span></li><li>Se o delta calculado for igual a zero a equa��o possui apenas uma raiz real; informe-a ao usu�rio; <span class="anchor" id="line-89"></span></li><li>Se o delta for positivo, a equa��o possui duas raiz reais; informe-as ao usu�rio; <span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span></li></ol></li><li class="gap">Fa�a um Programa que pe�a um n�mero correspondente a um determinado ano e em seguida informe se este ano � ou n�o bissexto. <span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span></li><li class="gap">Fa�a um Programa que pe�a uma data no formato dd/mm/aaaa e determine se a mesma � uma data v�lida. <span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span></li><li class="gap">Fa�a um Programa que leia um n�mero inteiro menor que 1000 e imprima a quantidade de centenas, dezenas e unidades do mesmo.   <span class="anchor" id="line-96"></span><ul><li style="list-style-type:none">Observando os termos no plural a coloca��o do "e", da v�rgula entre outros. <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span>Exemplo: <span class="anchor" id="line-99"></span></li><li>326 = 3 centenas, 2 dezenas e 6 unidades <span class="anchor" id="line-100"></span></li><li>12  = 1 dezena e 2 unidades <span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span>Testar com: 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16 <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span></li></ul></li><li class="gap">Fa�a um Programa para leitura de tr�s notas parciais de um aluno. O programa deve calcular a m�dia alcan�ada por aluno e presentar: <span class="anchor" id="line-105"></span><ol type="a"><li>A mensagem "Aprovado", se a m�dia for maior ou igual a 7, com a respectiva m�dia alcan�ada; <span class="anchor" id="line-106"></span></li><li>A mensagem "Reprovado", se a m�dia for menor do que 7, com a respectiva m�dia alcan�ada; <span class="anchor" id="line-107"></span></li><li>A mensagem "Aprovado com Distin��o", se a m�dia for igual a 10. <span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span></li></ol></li><li class="gap">Fa�a um Programa para um caixa eletr�nico. O programa dever� perguntar ao usu�rio a valor do saque e depois informar quantas notas de cada valor ser�o fornecidas. As notas dispon�veis ser�o as de 1, 5, 10, 50 e 100 reais. O valor m�nimo � de 10 reais e o m�ximo de 600 reais. O programa n�o deve se preocupar com a quantidade de notas existentes na m�quina. <span class="anchor" id="line-110"></span><ol type="a"><li>Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100, uma nota de 50, uma nota de 5 e uma nota de 1; <span class="anchor" id="line-111"></span></li><li>Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece tr�s notas de 100, uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1. <span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span></li></ol></li><li class="gap">Fa�a um Programa que pe�a um n�mero inteiro e determine se ele � par ou impar. Dica: utilize o operador m�dulo (resto da divis�o). <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span></li><li class="gap">Fa�a um Programa que pe�a um n�mero e informe se o n�mero � inteiro ou decimal. Dica: utilize uma fun��o de arredondamento. <span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span></li><li class="gap">Fa�a um Programa que leia 2 n�meros e em seguida pergunte ao usu�rio qual opera��o ele deseja realizar. O resultado da opera��o deve ser acompanhado de uma frase que diga se o n�mero �: <span class="anchor" id="line-118"></span><ol type="a"><li>par ou �mpar; <span class="anchor" id="line-119"></span></li><li>positivo ou negativo; <span class="anchor" id="line-120"></span></li><li>inteiro ou decimal. <span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span></li></ol></li><li class="gap">Fa�a um programa que fa�a 5 perguntas para uma pessoa sobre um crime. As perguntas s�o: <span class="anchor" id="line-123"></span><span class="anchor" id="line-124"></span><ol type="a"><li>"Telefonou para a v�tima?" <span class="anchor" id="line-125"></span></li><li>"Esteve no local do crime?" <span class="anchor" id="line-126"></span></li><li>"Mora perto da v�tima?" <span class="anchor" id="line-127"></span></li><li>"Devia para a v�tima?" <span class="anchor" id="line-128"></span></li><li>"J� trabalhou com a v�tima?" <span class="anchor" id="line-129"></span><span class="anchor" id="line-130"></span>O programa deve no final emitir uma classifica��o sobre a participa��o da pessoa no crime. Se a pessoa responder positivamente a 2 quest�es ela deve ser classificada como "Suspeita", entre 3 e 4 como "C�mplice" e 5 como "Assassino". Caso contr�rio, ele ser� classificado como "Inocente". <span class="anchor" id="line-131"></span><span class="anchor" id="line-132"></span></li></ol></li><li class="gap">Um posto est� vendendo combust�veis com a seguinte tabela de descontos: <span class="anchor" id="line-133"></span><ol type="a"><li>�lcool:  <span class="anchor" id="line-134"></span></li><li>at� 20 litros, desconto de 3% por litro  <span class="anchor" id="line-135"></span></li><li>acima de 20 litros, desconto de 5% por litro <span class="anchor" id="line-136"></span></li><li>Gasolina:  <span class="anchor" id="line-137"></span></li><li>at� 20 litros, desconto de 4% por litro <span class="anchor" id="line-138"></span></li><li>acima de 20 litros, desconto de 6% por litro <span class="anchor" id="line-139"></span><span class="anchor" id="line-140"></span>Escreva um algoritmo que leia o n�mero de litros vendidos, o tipo de combust�vel (codificado da seguinte forma: A-�lcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o pre�o do litro da gasolina � R$ 2,50 o pre�o do litro do �lcool � R$ 1,90.  <span class="anchor" id="line-141"></span><span class="anchor" id="line-142"></span></li></ol></li><li class="gap">Uma fruteira est� vendendo frutas com a seguinte tabela de pre�os: <span class="anchor" id="line-143"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-144"></span><span class="anchor" id="line-145"></span><span class="anchor" id="line-146"></span><span class="anchor" id="line-147"></span><pre><span class="anchor" id="line-1-2"></span>                      At� 5 Kg           Acima de 5 Kg
-<span class="anchor" id="line-2-2"></span>Morango         R$ 2,50 por Kg          R$ 2,20 por Kg
-<span class="anchor" id="line-3-2"></span>Ma��            R$ 1,80 por Kg          R$ 1,50 por Kg</pre><span class="anchor" id="line-148"></span><span class="anchor" id="line-149"></span>Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receber� ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade (em Kg) de ma�as adquiridas e escreva o valor a ser pago pelo cliente.  <span class="anchor" id="line-150"></span><span class="anchor" id="line-151"></span><span class="anchor" id="line-152"></span></li></ul></li><li class="gap">O Hipermercado Tabajara est� com uma promo��o de carnes que � imperd�vel. Confira: <span class="anchor" id="line-153"></span><span class="anchor" id="line-154"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-155"></span><span class="anchor" id="line-156"></span><span class="anchor" id="line-157"></span><span class="anchor" id="line-158"></span><span class="anchor" id="line-159"></span><span class="anchor" id="line-160"></span><pre><span class="anchor" id="line-1-3"></span>                      At� 5 Kg           Acima de 5 Kg
-<span class="anchor" id="line-2-3"></span>File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
-<span class="anchor" id="line-3-3"></span>Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
-<span class="anchor" id="line-4-2"></span>Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg</pre><span class="anchor" id="line-161"></span><span class="anchor" id="line-162"></span>Para atender a todos os clientes, cada cliente poder� levar apenas um dos tipos de carne da promo��o, por�m n�o h� limites para a quantidade de carne por cliente. Se compra for feita no cart�o Tabajara o cliente receber� ainda um desconto de 5% sobre o total da compra. Escreva um programa que pe�a o tipo e a quantidade de carne comprada pelo usu�rio e gere um cupom fiscal, contendo as informa��es da compra: tipo e quantidade de carne, pre�o total, tipo de pagamento, valor do desconto e valor a pagar. <span class="anchor" id="line-163"></span><span class="anchor" id="line-164"></span></li></ul></li></ol><p class="line867"><hr /><p 
-
-</div> <!-- information -->
-</div> <!-- footer -->
-</body>
+  gtag('config', 'UA-136790801-2');
+  </script>
+  <link charset="utf-8" href="/static/pybr/css/common.css" media="all" rel="stylesheet" type="text/css"/>
+  <link charset="utf-8" href="/static/pybr/css/screen.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link charset="utf-8" href="/static/pybr/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+  <link charset="utf-8" href="/static/pybr/css/projection.css" media="projection" rel="stylesheet" type="text/css"/>
+  <!-- css only for MS IE6/IE7 browsers -->
+  <!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/static/pybr/css/msie.css">
+<![endif]-->
+  <link href="/EstruturaSequencial?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=EstruturaSequencial&amp;ddiffs=1" rel="alternate" title="PythonBrasil: EstruturaSequencial" type="application/rss+xml"/>
+  <link href="/PythonBrasil" rel="Start"/>
+  <link href="/EstruturaSequencial?action=raw" rel="Alternate" title="Marcação da Wiki"/>
+  <link href="/EstruturaSequencial?action=print" media="print" rel="Alternate" title="Visualizar Impressão"/>
+  <link href="/FindPage" rel="Search"/>
+  <link href="/%C3%8DndiceDeT%C3%ADtulos" rel="Index"/>
+  <link href="/WordIndex" rel="Glossary"/>
+  <link href="/HelpOnFormatting" rel="Help"/>
+ </head>
+ <body dir="ltr" lang="pt-br">
+  <div id="head_bar">
+   <span class="partners">
+    <a href="http://associacao.python.org.br" title="Associação Python Brasil">
+     associação
+    </a>
+    <a href="http://2015.pythonbrasil.org.br" title="Conferência PythonBrasil[11]">
+     pythonbrasil[11]
+    </a>
+    <a href="http://www.djangobrasil.org" title="Django Brasil">
+     django
+    </a>
+    <a href="http://www.plone.org.br" title="Plone Brasil">
+     zope/plone
+    </a>
+    <a href="/planet/" title="Planet PythonBrasil">
+     planet
+    </a>
+   </span>
+   <span class="login">
+    <a href="/" title="Volta para a página inicial">
+     <img alt="Início" src="/static/pybr/img/home.png"/>
+    </a>
+    Logado como (
+    <a class="user_preference" href="/EstruturaSequencial?action=login">
+     Entrar
+    </a>
+    )
+   </span>
+  </div>
+  <div id="core">
+   <form action="/EstruturaSequencial" id="searchform" method="get">
+    <div>
+     <input name="action" type="hidden" value="fullsearch"/>
+     <input name="context" type="hidden" value="180"/>
+     <label for="searchinput">
+      Procurar:
+     </label>
+     <input alt="Search" id="searchinput" name="value" onblur="searchBlur(this)" onchange="searchChange(this)" onfocus="searchFocus(this)" onkeyup="searchChange(this)" size="20" type="text" value=""/>
+     <input alt="Search Titles" id="titlesearch" name="titlesearch" type="submit" value="Títulos"/>
+     <input alt="Search Full Text" id="fullsearch" name="fullsearch" type="submit" value="Texto"/>
+    </div>
+   </form>
+   <script type="text/javascript">
+    <!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+   </script>
+   <div id="logo" style="display:inline;">
+    <a href="/PythonBrasil">
+     <img alt="PythonBrasil" src="/pybr/img/pythonbrasil_logo.png" title="PythonBrasil"/>
+    </a>
+   </div>
+   <div id="sidebar">
+    <p>
+     <a href="?action=edit" title="Editar esta página">
+      <img alt="Editar esta página" src="/static/pybr/img/edit.png"/>
+     </a>
+    </p>
+    <h1>
+     Veja também:
+    </h1>
+    <ul>
+     <li>
+      <a href="/PythonBrasil">
+       PythonBrasil
+      </a>
+     </li>
+     <li>
+      <a href="/Mudan%C3%A7asRecentes">
+       MudançasRecentes
+      </a>
+     </li>
+     <li>
+      <a href="/%C3%8DndiceDeT%C3%ADtulos">
+       ÍndiceDeTítulos
+      </a>
+     </li>
+     <li>
+      <a href="/DocumentacaoPython">
+       DocumentacaoPython
+      </a>
+     </li>
+     <li>
+      <a href="/CookBook">
+       CookBook
+      </a>
+     </li>
+     <li>
+      <a href="/OutrasSecoes">
+       OutrasSecoes
+      </a>
+     </li>
+     <li>
+      <a href="/EstruturaSequencial">
+       Estrutura Sequencial
+      </a>
+     </li>
+    </ul>
+    <p>
+     <a href="/planet/" title="Planet PythonBrasil">
+      Planet PythonBrasil
+     </a>
+    </p>
+    <p>
+     <a href="/Mais">
+      Mais...
+     </a>
+    </p>
+    <p class="ad">
+    </p>
+   </div>
+   <div id="page">
+    <h1 id="pagelocation">
+     <span>
+      <a class="backlink" href="/EstruturaSequencial?action=fullsearch&amp;context=180&amp;value=linkto%3A%22EstruturaSequencial%22" rel="nofollow" title="Clique para fazer uma busca completa por este título">
+       EstruturaSequencial
+      </a>
+     </span>
+    </h1>
+    <!-- INICIO -->
+    <div dir="ltr" id="content" lang="pt-br">
+     <span class="anchor" id="top">
+     </span>
+     <span class="anchor" id="line-1">
+     </span>
+     <p class="line862">
+      Voltar para a
+      <a href="/ListaDeExercicios">
+       ListaDeExercicios
+      </a>
+      <span class="anchor" id="line-2">
+      </span>
+      <hr/>
+      <p class="line874">
+       <span class="anchor" id="line-3">
+       </span>
+       <span class="anchor" id="line-4">
+       </span>
+       <ol type="1">
+        <li>
+         Faça um Programa que mostre a mensagem "Alo mundo" na tela.
+         <span class="anchor" id="line-5">
+         </span>
+         <span class="anchor" id="line-6">
+         </span>
+        </li>
+        <li class="gap">
+         <p class="line862">
+          Faça um Programa que peça um número e então mostre a mensagem
+          <em>
+           O número informado foi [número]
+          </em>
+          .
+          <span class="anchor" id="line-7">
+          </span>
+          <span class="anchor" id="line-8">
+          </span>
+         </p>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça dois números e imprima a soma.
+         <span class="anchor" id="line-9">
+         </span>
+         <span class="anchor" id="line-10">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça as 4 notas bimestrais e mostre a média.
+         <span class="anchor" id="line-11">
+         </span>
+         <span class="anchor" id="line-12">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que converta metros para centímetros.
+         <span class="anchor" id="line-13">
+         </span>
+         <span class="anchor" id="line-14">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+         <span class="anchor" id="line-15">
+         </span>
+         <span class="anchor" id="line-16">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+         <span class="anchor" id="line-17">
+         </span>
+         <span class="anchor" id="line-18">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+         <span class="anchor" id="line-19">
+         </span>
+         <span class="anchor" id="line-20">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+         <span class="anchor" id="line-21">
+         </span>
+         <ul>
+          <li style="list-style-type:none">
+           C = 5 * ((F-32) / 9).
+           <span class="anchor" id="line-22">
+           </span>
+           <span class="anchor" id="line-23">
+           </span>
+          </li>
+         </ul>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+         <span class="anchor" id="line-24">
+         </span>
+         <span class="anchor" id="line-25">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+         <span class="anchor" id="line-26">
+         </span>
+         <ol type="a">
+          <li>
+           o produto do dobro do primeiro com metade do segundo .
+           <span class="anchor" id="line-27">
+           </span>
+          </li>
+          <li>
+           a soma do triplo do primeiro com o terceiro.
+           <span class="anchor" id="line-28">
+           </span>
+          </li>
+          <li>
+           o terceiro elevado ao cubo.
+           <span class="anchor" id="line-29">
+           </span>
+           <span class="anchor" id="line-30">
+           </span>
+          </li>
+         </ol>
+        </li>
+        <li class="gap">
+         Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+         <span class="anchor" id="line-31">
+         </span>
+         <span class="anchor" id="line-32">
+         </span>
+        </li>
+        <li class="gap">
+         Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+         <span class="anchor" id="line-33">
+         </span>
+         <ol type="a">
+          <li>
+           Para homens: (72.7*h) - 58
+           <span class="anchor" id="line-34">
+           </span>
+          </li>
+          <li>
+           Para mulheres: (62.1*h) - 44.7
+           <span class="anchor" id="line-35">
+           </span>
+           <span class="anchor" id="line-36">
+           </span>
+           <span class="anchor" id="line-37">
+           </span>
+          </li>
+         </ol>
+        </li>
+        <li class="gap">
+         <p class="line862">
+          João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável
+          <em>
+           peso
+          </em>
+          (peso de peixes) e calcule o excesso. Gravar na variável
+          <em>
+           excesso
+          </em>
+          a quantidade de quilos além do limite e na variável
+          <em>
+           multa
+          </em>
+          o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
+          <span class="anchor" id="line-38">
+          </span>
+          <span class="anchor" id="line-39">
+          </span>
+         </p>
+        </li>
+        <li class="gap">
+         Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
+         <span class="anchor" id="line-40">
+         </span>
+         <ol type="a">
+          <li>
+           salário bruto.
+           <span class="anchor" id="line-41">
+           </span>
+          </li>
+          <li>
+           quanto pagou ao INSS.
+           <span class="anchor" id="line-42">
+           </span>
+          </li>
+          <li>
+           quanto pagou ao sindicato.
+           <span class="anchor" id="line-43">
+           </span>
+          </li>
+          <li>
+           o salário líquido.
+           <span class="anchor" id="line-44">
+           </span>
+          </li>
+          <li>
+           calcule os descontos e o salário líquido, conforme a tabela abaixo:
+           <span class="anchor" id="line-45">
+           </span>
+           <span class="anchor" id="line-46">
+           </span>
+           <span class="anchor" id="line-47">
+           </span>
+           <span class="anchor" id="line-48">
+           </span>
+           <span class="anchor" id="line-49">
+           </span>
+           <span class="anchor" id="line-50">
+           </span>
+           <span class="anchor" id="line-51">
+           </span>
+           <pre><span class="anchor" id="line-1"></span>+ Salário Bruto : R$
+<span class="anchor" id="line-2"></span>- IR (11%) : R$
+<span class="anchor" id="line-3"></span>- INSS (8%) : R$
+<span class="anchor" id="line-4"></span>- Sindicato ( 5%) : R$
+<span class="anchor" id="line-5"></span>= Salário Liquido : R$</pre>
+           <span class="anchor" id="line-52">
+           </span>
+           Obs.: Salário Bruto - Descontos = Salário Líquido.
+           <span class="anchor" id="line-53">
+           </span>
+           <span class="anchor" id="line-54">
+           </span>
+          </li>
+         </ol>
+        </li>
+        <li class="gap">
+         Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+         <span class="anchor" id="line-55">
+         </span>
+         <span class="anchor" id="line-56">
+         </span>
+        </li>
+        <li class="gap">
+         Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
+         <span class="anchor" id="line-57">
+         </span>
+         <ul>
+          <li style="list-style-type:none">
+           Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
+           <span class="anchor" id="line-58">
+           </span>
+          </li>
+          <li>
+           comprar apenas latas de 18 litros;
+           <span class="anchor" id="line-59">
+           </span>
+          </li>
+          <li>
+           comprar apenas galões de 3,6 litros;
+           <span class="anchor" id="line-60">
+           </span>
+          </li>
+          <li>
+           misturar latas e galões, de forma que o desperdício de tinta seja menor.
+           <span class="anchor" id="line-61">
+           </span>
+           <span class="anchor" id="line-62">
+           </span>
+           Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias.
+           <span class="anchor" id="line-63">
+           </span>
+           <span class="anchor" id="line-64">
+           </span>
+          </li>
+         </ul>
+        </li>
+        <li class="gap">
+         Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+         <span class="anchor" id="line-65">
+         </span>
+         <span class="anchor" id="line-66">
+         </span>
+        </li>
+       </ol>
+       <p class="line867">
+        <hr/>
+        <p class="line874">
+         <span class="anchor" id="line-67">
+         </span>
+         Voltar para a
+         <a href="/ListaDeExercicios">
+          ListaDeExercicios
+         </a>
+         <span class="anchor" id="line-68">
+         </span>
+         <span class="anchor" id="bottom">
+         </span>
+        </p>
+       </p>
+      </p>
+     </p>
+    </div>
+    <!-- FIM -->
+   </div>
+   <!-- page -->
+  </div>
+  <!-- core -->
+  <div id="footer">
+   <div class="partners">
+    <p>
+     <a href="http://moinmo.in/">
+      <img alt="Powered by MoinMoin" src="/pybr/img/logo_moin.png"/>
+     </a>
+     <a href="https://creativecommons.org/licenses/by/2.5/br/" rel="license">
+      <img alt="Creative Commons License" src="https://creativecommons.org/images/public/somerights20.png" style="border-width:0"/>
+     </a>
+    </p>
+   </div>
+   <div class="information">
+    <p>
+     <span style="font-weight: bold;">
+      Sobre esta página
+     </span>
+    </p>
+    <p class="info" dir="ltr" id="pageinfo" lang="pt-br">
+     EstruturaSequencial  (editada pela última vez em 2022-04-02 02:17:55 por
+     <span title="ogordo @ 191-6-134-138.rev.netcom.tv.br[191.6.134.138]">
+      <a class="nonexistent" href="/ogordo" title="ogordo @ 191-6-134-138.rev.netcom.tv.br[191.6.134.138]">
+       ogordo
+      </a>
+     </span>
+     )
+    </p>
+    <p>
+     <a href="?action=raw">
+      Visualizar Texto
+     </a>
+     |
+     <a href="?action=print">
+      Visualizar Impressão
+     </a>
+     |
+     <a href="?action=info">
+      Information
+     </a>
+     |
+     <a href="?action=SubscribeUser">
+      Fazer Usuário Acompanhar
+     </a>
+     |
+     <a href="?action=AttachFile">
+      Anexos
+     </a>
+    </p>
+    <p>
+    </p>
+    <p>
+     "Python" e os logos de Python são marcas registradas da
+     <a href="http://www.python.org/psf">
+      Python Software Foundation
+     </a>
+     , usadas aqui mediante permissão da mesma. O conteúdo deste site está disponível sob os termos da
+     <a href="http://creativecommons.org/licenses/by/2.5/br/">
+      Creative Commons Attribution 2.5
+     </a>
+     exceto quando explicitamente especificado outra licença.
+    </p>
+   </div>
+   <!-- information -->
+  </div>
+  <!-- footer -->
+ </body>
 </html>
-

@@ -1,11 +1,9 @@
 import requests
+from bs4 import BeautifulSoup
 
-url = "https://wiki.python.org.br/EstruturaDeDecisao"
-
-# fazer uma solicitação HTTP ao URL do link e obter seu conteúdo
+url = "https://wiki.python.org.br/EstruturaSequencial"
 response = requests.get(url)
-content = response.text
+soup = BeautifulSoup(response.content, "html.parser")
 
-# escrever o conteúdo no arquivo README.md
-with open("README.md", "w") as f:
-    f.write(content)
+with open("README.md", "w", encoding="utf-8") as file:
+    file.write(soup.prettify())
