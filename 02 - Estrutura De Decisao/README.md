@@ -639,13 +639,6 @@
        </ol>
        <p class="line867">
         <hr/>
-        <p class="line874">
-         <span class="anchor" id="line-165">
-         </span>
-         Voltar para a
-         <a href="/ListaDeExercicios">
-          ListaDeExercicios
-         </a>
          <span class="anchor" id="line-166">
          </span>
          <span class="anchor" id="bottom">
