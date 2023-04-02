@@ -17,10 +17,6 @@
      </span>
      <span class="anchor" id="line-1">
      </span>
-     <p class="line862">
-      Voltar para a
-      <a href="/ListaDeExercicios">
-       ListaDeExercicios
       </a>
       <span class="anchor" id="line-2">
       </span>
