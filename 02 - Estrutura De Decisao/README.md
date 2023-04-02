@@ -3,6 +3,9 @@
  <head>
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
   <meta content="index,nofollow" name="robots"/>
+     <div id="page">
+    <h1 id="pagelocation">
+     <span>
       <a class="backlink" href="/EstruturaDeDecisao?action=fullsearch&amp;context=180&amp;value=linkto%3A%22EstruturaDeDecisao%22" rel="nofollow" title="Clique para fazer uma busca completa por este título">
        EstruturaDeDecisao
       </a>
