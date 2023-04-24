@@ -3,154 +3,8 @@
  <head>
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
   <meta content="index,nofollow" name="robots"/>
-  <title>
-   ExerciciosFuncoes - PythonBrasil
-  </title>
-  <script src="/static/common/js/common.js" type="text/javascript">
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-136790801-2">
-  </script>
-  <script>
-   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136790801-2');
-  </script>
-  <link charset="utf-8" href="/static/pybr/css/common.css" media="all" rel="stylesheet" type="text/css"/>
-  <link charset="utf-8" href="/static/pybr/css/screen.css" media="screen" rel="stylesheet" type="text/css"/>
-  <link charset="utf-8" href="/static/pybr/css/print.css" media="print" rel="stylesheet" type="text/css"/>
-  <link charset="utf-8" href="/static/pybr/css/projection.css" media="projection" rel="stylesheet" type="text/css"/>
-  <!-- css only for MS IE6/IE7 browsers -->
-  <!--[if lt IE 8]>
-   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/static/pybr/css/msie.css">
-<![endif]-->
-  <link href="/ExerciciosFuncoes?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=ExerciciosFuncoes&amp;ddiffs=1" rel="alternate" title="PythonBrasil: ExerciciosFuncoes" type="application/rss+xml"/>
-  <link href="/PythonBrasil" rel="Start"/>
-  <link href="/ExerciciosFuncoes?action=raw" rel="Alternate" title="Marcação da Wiki"/>
-  <link href="/ExerciciosFuncoes?action=print" media="print" rel="Alternate" title="Visualizar Impressão"/>
-  <link href="/FindPage" rel="Search"/>
-  <link href="/%C3%8DndiceDeT%C3%ADtulos" rel="Index"/>
-  <link href="/WordIndex" rel="Glossary"/>
-  <link href="/HelpOnFormatting" rel="Help"/>
  </head>
  <body dir="ltr" lang="pt-br">
-  <div id="head_bar">
-   <span class="partners">
-    <a href="http://associacao.python.org.br" title="Associação Python Brasil">
-     associação
-    </a>
-    <a href="http://2015.pythonbrasil.org.br" title="Conferência PythonBrasil[11]">
-     pythonbrasil[11]
-    </a>
-    <a href="http://www.djangobrasil.org" title="Django Brasil">
-     django
-    </a>
-    <a href="http://www.plone.org.br" title="Plone Brasil">
-     zope/plone
-    </a>
-    <a href="/planet/" title="Planet PythonBrasil">
-     planet
-    </a>
-   </span>
-   <span class="login">
-    <a href="/" title="Volta para a página inicial">
-     <img alt="Início" src="/static/pybr/img/home.png"/>
-    </a>
-    Logado como (
-    <a class="user_preference" href="/ExerciciosFuncoes?action=login">
-     Entrar
-    </a>
-    )
-   </span>
-  </div>
-  <div id="core">
-   <form action="/ExerciciosFuncoes" id="searchform" method="get">
-    <div>
-     <input name="action" type="hidden" value="fullsearch"/>
-     <input name="context" type="hidden" value="180"/>
-     <label for="searchinput">
-      Procurar:
-     </label>
-     <input alt="Search" id="searchinput" name="value" onblur="searchBlur(this)" onchange="searchChange(this)" onfocus="searchFocus(this)" onkeyup="searchChange(this)" size="20" type="text" value=""/>
-     <input alt="Search Titles" id="titlesearch" name="titlesearch" type="submit" value="Títulos"/>
-     <input alt="Search Full Text" id="fullsearch" name="fullsearch" type="submit" value="Texto"/>
-    </div>
-   </form>
-   <script type="text/javascript">
-    <!--// Initialize search form
-var f = document.getElementById('searchform');
-f.getElementsByTagName('label')[0].style.display = 'none';
-var e = document.getElementById('searchinput');
-searchChange(e);
-searchBlur(e);
-//-->
-   </script>
-   <div id="logo" style="display:inline;">
-    <a href="/PythonBrasil">
-     <img alt="PythonBrasil" src="/pybr/img/pythonbrasil_logo.png" title="PythonBrasil"/>
-    </a>
-   </div>
-   <div id="sidebar">
-    <p>
-     <a href="?action=edit" title="Editar esta página">
-      <img alt="Editar esta página" src="/static/pybr/img/edit.png"/>
-     </a>
-    </p>
-    <h1>
-     Veja também:
-    </h1>
-    <ul>
-     <li>
-      <a href="/PythonBrasil">
-       PythonBrasil
-      </a>
-     </li>
-     <li>
-      <a href="/Mudan%C3%A7asRecentes">
-       MudançasRecentes
-      </a>
-     </li>
-     <li>
-      <a href="/%C3%8DndiceDeT%C3%ADtulos">
-       ÍndiceDeTítulos
-      </a>
-     </li>
-     <li>
-      <a href="/DocumentacaoPython">
-       DocumentacaoPython
-      </a>
-     </li>
-     <li>
-      <a href="/CookBook">
-       CookBook
-      </a>
-     </li>
-     <li>
-      <a href="/OutrasSecoes">
-       OutrasSecoes
-      </a>
-     </li>
-     <li>
-      <a href="/ExerciciosFuncoes">
-       Exercicios Funcoes
-      </a>
-     </li>
-    </ul>
-    <p>
-     <a href="/planet/" title="Planet PythonBrasil">
-      Planet PythonBrasil
-     </a>
-    </p>
-    <p>
-     <a href="/Mais">
-      Mais...
-     </a>
-    </p>
-    <p class="ad">
-    </p>
-   </div>
    <div id="page">
     <h1 id="pagelocation">
      <span>
@@ -165,11 +19,6 @@ searchBlur(e);
      </span>
      <span class="anchor" id="line-1">
      </span>
-     <p class="line862">
-      Voltar para a
-      <a href="/ListaDeExercicios">
-       ListaDeExercicios
-      </a>
       <span class="anchor" id="line-2">
       </span>
       <hr/>
@@ -186,11 +35,6 @@ searchBlur(e);
         </span>
         <span class="anchor" id="line-6">
         </span>
-        <p class="line862">
-         Veja também a página com as soluções propostas pela comunidade em
-         <a href="/ExerciciosFuncoesSolucoes">
-          ExerciciosFuncoesSolucoes
-         </a>
          <span class="anchor" id="line-7">
          </span>
          <span class="anchor" id="line-8">
