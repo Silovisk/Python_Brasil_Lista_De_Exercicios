@@ -28,7 +28,7 @@ def formatar_data(data):
             return "NULL Data Invalida"
 
 # Lendo tabela
-df = pd.read_excel("Planilhas pra testes\datas.xlsx")
+df = pd.read_excel("00 - Ferramentas\Planilhas pra testes\datas.xlsx")
 
 # Excluindo coluna lista
 df = df.drop('Lista', axis=1)
