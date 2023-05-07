@@ -3,9 +3,6 @@
  <head>
   <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
   <meta content="index,nofollow" name="robots"/>
-  <title>
-   ExerciciosComStrings - PythonBrasil
-  </title>
    </head>
    <div id="page">
     <h1 id="pagelocation">
