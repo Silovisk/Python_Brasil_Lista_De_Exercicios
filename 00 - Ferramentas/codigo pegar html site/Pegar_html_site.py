@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://wiki.python.org.br/ExerciciosArquivos"
+url = "https://wiki.python.org.br/ExerciciosClasses"
 response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 
